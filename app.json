@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "PupTracker",
+    "slug": "my_first_rn_app",
+    "version": "1.0.0",
+    "android": {
+      "package": "com.anonymous.my_first_rn_app"
+    },
+    "ios": {
+      "bundleIdentifier": "iosapphelp"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e2f3f406-b698-49e0-bfbd-33508e1fae99"
+      },
+      "plugins": [
+        [
+          "expo-location",
+          {
+            "locationAlwaysAndWhenInUsePermission": "Allow my_first_rn_app to use your location!",
+            "isIosBackgroundLocationEnabled": true,
+            "isAndroidBackgroundLocationEnabled": true
+          },
+          "@rnmapbox/maps",
+          {
+            "RNMapboxMapsDownloadToken": "sk.eyJ1IjoibmVoYWthbGFrdW50bGEiLCJhIjoiY2x5MjU5YnowMTNsNzJqcHZmYWcyMWV5YiJ9.gW7MFVxcdDUIWabzxuH1oA",
+            "RNMapboxMapsVersion": "11.0.0"
+          }
+        ]
+      ]
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}

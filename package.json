@@ -1,0 +1,51 @@
+{
+  "name": "my_first_rn_app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/metro-runtime": "~3.2.1",
+    "@react-native-async-storage/async-storage": "^1.23.1",
+    "@react-native-community/datetimepicker": "8.0.1",
+    "@react-native-mapbox-gl/maps": "^8.6.0-beta.0",
+    "@react-navigation/bottom-tabs": "^6.5.20",
+    "@react-navigation/native": "^6.1.17",
+    "@react-navigation/native-stack": "^6.9.26",
+    "@rnmapbox/maps": "^10.1.27",
+    "@types/react": "~18.2.79",
+    "axios": "^1.7.2",
+    "expo": "^51.0.0",
+    "expo-constants": "~16.0.2",
+    "expo-dev-client": "~4.0.19",
+    "expo-linear-gradient": "^13.0.2",
+    "expo-location": "~17.0.1",
+    "expo-modules-autolinking": "^1.11.1",
+    "expo-router": "~3.5.17",
+    "expo-sensors": "~13.0.9",
+    "expo-status-bar": "~1.12.1",
+    "expo-task-manager": "^11.8.2",
+    "mapbox-gl": "^2.15.0",
+    "platform": "file:../Utilities/Platform",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native": "^0.74.2",
+    "react-native-geolocation-service": "^5.3.1",
+    "react-native-maps": "^1.14.0",
+    "react-native-safe-area-context": "4.10.1",
+    "react-native-screens": "3.31.1",
+    "react-native-storage": "^1.0.1",
+    "react-native-web": "~0.19.10",
+    "typescript": "~5.3.3",
+    "expo-image-picker": "~15.0.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "expo-module-scripts": "^3.5.2"
+  },
+  "private": true
+}
