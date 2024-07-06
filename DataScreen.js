@@ -34,7 +34,7 @@ export default function DataScreen() {
   }, []);
   return (
     <ScrollView style={styles.container}>
-      <View style={{alignItems: 'center' }}><Text style={styles.topText}>Data</Text></View>
+    <View style={{alignItems: 'center' }}><Text style={styles.topText}>Data</Text></View>
     {errorMsg ? <Text>{errorMsg}</Text> : null}
     {currentValue.dogs.map((dog, index) => (
     <View key={index} style={styles.dogContainer}>
